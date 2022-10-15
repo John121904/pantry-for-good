@@ -1,4 +1,4 @@
-resource_group = "pantry-for-good"
+resource_group = "ODL-azure-764035"
 
 rg_prefix = "pfg"
 
@@ -6,6 +6,10 @@ hostname = "pfgvm"
 
 dns_name = "pantry-for-good"
 
-location = "ukwest"
+location = "eastus"
 
 post_deployment_script_url = "https://gist.githubusercontent.com/jspaine/773df27c2ff5cb24e34db839c4755f64/raw/deploy.sh"
+
+#admin_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCotWiX9IjZYjvJaW4tEaSBJG279c8a52ObTLlgjXhlQZ6Nugk8N+hlv0risA/EDxkzsyCtaOvSXY/Tw06uZ3a/9xKj07JnrpM7B19hc/AYb8k+WgMrknXCrJtgqUrLFHlRM3ch2pWBYlD1/lNiYYQLF7SS7XVJR0QLjObI7CvFVUy39RLColJog95B9mJTMuKUTxg3cm/QRhqw9OmvI2ZN/u1vPcIpMbEgZSxSYC1ThCBi86yMoIn+IEClcfsELM8O7YRj4PjRTHhKhp17mO1JA5CK+lfR9m5Dr8+ywaH4j8CTdigVyn2ORZw4cUgbmxKvRIE/QZ/TEFv6E9lI0YcMeIvt2uygWh6fP78TIR7ImCLUJe/p9IbiYVKn81lv8pZaIz/IlfVE133/gEDxAGK7BXBaDGelL/hLisXasvq/CEzB/TGtIR9V3qF69F5D7jwdDntoUI9yraGHh95pz86RoBcqgHD95iFh+Dmu3ZtGUgNuNioJZHqx3itpgMiU08Rev9GpvlH76xXhGv8RKbVyOJVHFYh2zB2bz8oDI2PVjdSK3zrXNs2BvvNkVxMKhAvIjXT+DnAoJoJuYwGB8deDJO/zfh1tMpfsC1jbQ8+Z6+4VgBv8EDsGQLwQOGuI+ckVZEsSxE5roJuPtDXnznvGL36UuQGlDKph/fauywEgw== azuread\johnmarloumarcial@GDC-Laptop-007"
+
+admin_email = "johnmarloumarcial@gmail.com"

@@ -1,9 +1,9 @@
 output "hostname" {
-  value = "${var.hostname}"
+  value = var.hostname
 }
 
 output "vm_fqdn" {
-  value = "${azurerm_public_ip.publicip.fqdn}"
+  value = azurerm_public_ip.publicip.fqdn
 }
 
 output "ssh_command" {
